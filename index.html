@@ -1,23 +1,156 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
- 
+
 
 <body>
 
-    <div class="topnav">
+    <div class="topnav sticky">
         <p>BR Architects</p>
         <a class="active" href="#home">Home</a>
         <a href="#news">News</a>
         <a href="#contact">Contact</a>
         <a href="#about">About</a>
     </div>
+    <!-- navigation close  -->
 
-    <img src="assets/architect.jpg"/>
+    <!-- header image -->
+    <img class="header_image" src="assets/architect.jpg" />
+
+    <!-- Projects Section starts  -->
+    <h3 class="heading">Projects</h3>
+    <hr />
+    <div class="row">
+        <div class="column">
+            <img src="assets/house5.jpg" alt="Snow">
+            <div class="image-heading">Summer House</div>
+        </div>
+        <div class="column">
+            <img class="" src="assets/house2.jpg" alt="Forest">
+            <div class="image-heading">Summer House</div>
+        </div>
+        <div class="column">
+            <img src="assets/house4.jpg" alt="Mountains">
+            <div class="image-heading">Summer House</div>
+        </div>
+        <div class="column">
+
+            <img src="assets/house4.jpg" alt="Mountains">
+            <div class="image-heading">Summer House</div>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="column">
+            <img src="assets/house5.jpg" alt="Snow">
+            <div class="image-heading">renovated</div>
+        </div>
+        <div class="column">
+            <img class="" src="assets/house2.jpg" alt="Forest">
+            <div class="image-heading">barn house</div>
+        </div>
+        <div class="column">
+            <img src="assets/house4.jpg" alt="Mountains">
+            <div class="image-heading">brick house</div>
+        </div>
+        <div class="column">
+
+            <img src="assets/house3.jpg" alt="Mountains">
+            <div class="image-heading">Summer House</div>
+        </div>
+
+    </div>
+
+    <!-- Project ection Ends -->
+
+    <!-- About Section  -->
+    <h3 class="heading">About</h3>
+        <hr />
+    <div class="about" id="about">
+        
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo consequat. Excepteur sint
+            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
+            adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco
+            laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+    </div>
+    <div class="row">
+        <div class="column">
+            <img src="assets/team2.jpg" alt="Snow"  >
+            <p class="w3-opacity">John DOE</p>
+            <p class="sub-title">CEO & Founder</p>
+            <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+            <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+        </div>
+        <div class="column">
+            <img src="assets/team3.jpg" alt="Forest" style="width:100%">
+            <h3>mike ross</h3>
+            <p class="w3-opacity1">Architect</p>
+            <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+            <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+        </div>
+        <div class="column">
+            <img src="assets/team1.jpg" alt="Mountains" style="width:100%">
+            <h3>Jane Doe</h3>
+            <p class="w3-opacity2">Architect</p>
+            <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+            <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+        </div>
+        <div class="column">
+            <img src="assets/team4.jpg" alt="Mountains" style="width:100%">
+            <h3>Dan Star</h3>
+            <p class="w3-opacity2">Architect</p>
+            <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+            <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+        </div>
+    </div>
+    <!-- About Section Ends -->
+
+
+
+  
+      <!-- Contact Section -->
+  <div class="w3-container w3-padding-32" id="contact">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
+    <p>Lets get in touch and talk about your next project.</p>
+    <form action="/action_page.php">
+      <label for="fname">Name</label>
+      <input type="text" id="fname" name="name" placeholder="Your name..">
+  
+      <label for="lname">Email</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+  
+      <label for="country">Subject</label>
+      <input type="text" id="subject" name="subject"placeholder="subject"
+
+      <label for="comment">comment</label>
+      <input type="text" id="comment" name="comment"placeholder="comment"
+
+      <select 
+      </select>
+
+    </form>
+  </div>
+
+  <button type="button" class="button" onclick="alert('Hello world!')">send message</button>
+
+  <div class="w3-container">
+    <img src="/C:\Users\TLS\Downloads/map.jpg" class="w3-image" style="width:100%">
+  </div>
+
+  <footer class="w3-center w3-black w3-padding-16">
+    <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  </footer>
+
+ 
 
 
 
